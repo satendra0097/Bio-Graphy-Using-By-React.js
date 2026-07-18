@@ -96,7 +96,7 @@ const Biography = () => {
           }}>
             <img
               src="ramu bhaiya1.png"
-            alt="Devendra Pratap Singh Tomar"
+              alt="Devendra Pratap Singh Tomar"
               style={{
                 width: '100%',
                 height: '100%',
@@ -176,7 +176,7 @@ const Biography = () => {
             }}>
               <img
                 src="ramu bhaiya family.png"
-                alt="Family photo of Devendra Pratap Singh Tomar with family members"
+                alt="Family of Devendra Pratap Singh Tomar"
                 style={{
                   width: '100%',
                   height: '100%',
@@ -357,7 +357,7 @@ const Biography = () => {
               >
                 <img
                   src="Gwalior.png"
-                  alt="Gwalior-Morena region map"
+                  alt="Gwalior Morena region map"
                   style={{
                     width: '100%',
                     height: '100%',
@@ -424,7 +424,7 @@ const Biography = () => {
                 }}>
                   <img
                     src="Gwalior.png"
-                    alt="Gwalior-Morena region"
+                    alt="Gwalior Morena region"
                     style={{
                       maxWidth: '60%',
                       maxHeight: '70%',
@@ -728,7 +728,7 @@ const Biography = () => {
               >
                 <img
                   src="ramu bhaiya.png"
-                  alt="Devendra Pratap Singh Tomar - Ramu Bhaiya"
+                  alt="Devendra Pratap Singh Tomar Ramu Bhaiya"
                   style={{
                     width: '100%',
                     height: '100%',
@@ -793,7 +793,7 @@ const Biography = () => {
                 }}>
                   <img
                     src="ramu bhaiya.png"
-                    alt="Devendra Pratap Singh Tomar - Ramu Bhaiya"
+                    alt="Devendra Pratap Singh Tomar Ramu Bhaiya"
                     style={{
                       maxWidth: '60%',
                       maxHeight: '70%',
@@ -890,17 +890,20 @@ const Biography = () => {
                 Useful Links
               </h4>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-            <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }} style={{
-  color: '#8a99b0',
-  textDecoration: 'none',
-  fontSize: '0.92rem',
-  fontWeight: 600,
-  transition: 'color 0.3s',
-  cursor: 'pointer'
-}}
-  onMouseEnter={(e) => e.target.style.color = '#b8912f'}
-  onMouseLeave={(e) => e.target.style.color = '#8a99b0'}
->Home</a>
+                <button onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+                  style={{
+                    color: '#8a99b0',
+                    textDecoration: 'none',
+                    fontSize: '0.92rem',
+                    fontWeight: 600,
+                    transition: 'color 0.3s',
+                    cursor: 'pointer'
+                  }}
+                  onMouseEnter={(e) => e.target.style.color = '#b8912f'}
+                  onMouseLeave={(e) => e.target.style.color = '#8a99b0'}
+                >
+                  Home
+                </button>
 
                 <a href="#about" style={{
                   color: '#8a99b0',

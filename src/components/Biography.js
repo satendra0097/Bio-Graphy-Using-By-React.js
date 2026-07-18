@@ -890,7 +890,7 @@ const Biography = () => {
                 Useful Links
               </h4>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                <button onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
+                <a href='/' onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
                   style={{
                     color: '#8a99b0',
                     textDecoration: 'none',
@@ -903,7 +903,7 @@ const Biography = () => {
                   onMouseLeave={(e) => e.target.style.color = '#8a99b0'}
                 >
                   Home
-                </button>
+                </a>
 
                 <a href="#about" style={{
                   color: '#8a99b0',
@@ -1041,7 +1041,7 @@ const Biography = () => {
                 onMouseLeave={(e) => e.target.style.color = '#7d879a'}>Terms</span>
               <span style={{ color: 'rgba(255,255,255,0.08)' }}>|</span>
               <span style={{ color: '#7d879a' }}>
-                <span style={{ color: '#b8912f', fontWeight: 700 }}>e-Biz</span> Technocrats
+                <span style={{ color: '#b8912f', fontWeight: 700 }}>Satendra Baghel</span>
               </span>
             </div>
           </div>

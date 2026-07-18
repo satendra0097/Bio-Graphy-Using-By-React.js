@@ -15,10 +15,10 @@ const Biography = () => {
             Ramu Bhaiya <span style={{ color: '#b8912f' }}>· Gwalior</span>
           </div>
           <div style={{ display: 'flex', gap: '36px', margin: 0, padding: 0 }}>
-            <p style="#about" style={{ textDecoration: 'none', color: '#c7cfdb', fontSize: '1rem', fontWeight: 500 }}>About</p>
-            <p style="#work" style={{ textDecoration: 'none', color: '#c7cfdb', fontSize: '1rem', fontWeight: 500 }}>Work</p>
-            <p style="#sports" style={{ textDecoration: 'none', color: '#c7cfdb', fontSize: '1rem', fontWeight: 500 }}>Sports</p>
-            <p style="#journey" style={{ textDecoration: 'none', color: '#c7cfdb', fontSize: '1rem', fontWeight: 500 }}>Journey</p>
+            <a href="#about" style={{ textDecoration: 'none', color: '#c7cfdb', fontSize: '1rem', fontWeight: 500 }}>About</a>
+            <a href="#work" style={{ textDecoration: 'none', color: '#c7cfdb', fontSize: '1rem', fontWeight: 500 }}>Work</a>
+            <a href="#sports" style={{ textDecoration: 'none', color: '#c7cfdb', fontSize: '1rem', fontWeight: 500 }}>Sports</a>
+            <a href="#journey" style={{ textDecoration: 'none', color: '#c7cfdb', fontSize: '1rem', fontWeight: 500 }}>Journey</a>
           </div>
           <button style={{ display: 'none', background: 'none', border: '1px solid rgba(255,255,255,0.2)', color: '#fdfbf7', borderRadius: '6px', padding: '8px 16px', fontSize: '0.95rem', cursor: 'pointer' }} onClick={() => setMenuOpen(!menuOpen)}>
             Menu
@@ -96,7 +96,7 @@ const Biography = () => {
           }}>
             <img
               src="ramu bhaiya1.png"
-              alt="Devendra Pratap Singh Tomar"
+              alt="Devendra Pratap Singh Tomar - Ramu Bhaiya"
               style={{
                 width: '100%',
                 height: '100%',
@@ -104,7 +104,6 @@ const Biography = () => {
                 display: 'block'
               }}
             />
-
           </div>
         </div>
       </header>
@@ -177,7 +176,7 @@ const Biography = () => {
             }}>
               <img
                 src="ramu bhaiya family.png"
-                alt="Family / early life photo of Devendra Pratap Singh Tomar"
+                alt="Family photo of Devendra Pratap Singh Tomar with family members"
                 style={{
                   width: '100%',
                   height: '100%',
@@ -186,7 +185,6 @@ const Biography = () => {
                   transform: 'scale(1.05)'
                 }}
               />
-
             </div>
           </div>
         </div>
@@ -240,7 +238,7 @@ const Biography = () => {
             }}>
               <img
                 src="Hocky.png"
-                alt="Hockey India event photo - Devendra Pratap Singh Tomar"
+                alt="Devendra Pratap Singh Tomar at Hockey India event"
                 style={{
                   width: '100%',
                   height: '100%',
@@ -249,7 +247,6 @@ const Biography = () => {
                   objectPosition: 'top 20%'
                 }}
               />
-
             </div>
 
             {/* Text Content */}
@@ -285,9 +282,7 @@ const Biography = () => {
                 Field hockey carries a proud history in Madhya Pradesh, and Devendra has built a national reputation within its administration, focused on giving smaller towns a real pathway into the sport.
               </p>
 
-
               {/* Points */}
-
               <div style={{ margin: '14px 0 0', padding: 0 }}>
                 <div style={{
                   padding: '10px 0 10px 22px',
@@ -318,13 +313,9 @@ const Biography = () => {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </section>
-
-
-
 
       {/* Journey Section */}
       <section id="journey" style={{ padding: '66px 0' }}>
@@ -366,7 +357,7 @@ const Biography = () => {
               >
                 <img
                   src="Gwalior.png"
-                  alt="Gwalior-Morena region"
+                  alt="Gwalior-Morena region map"
                   style={{
                     width: '100%',
                     height: '100%',
@@ -491,7 +482,7 @@ const Biography = () => {
               >
                 <img
                   src="bjp.png"
-                  alt="BJP - Party Organization"
+                  alt="BJP Party Organization"
                   style={{
                     width: '100%',
                     height: '100%',
@@ -556,7 +547,7 @@ const Biography = () => {
                 }}>
                   <img
                     src="bjp.png"
-                    alt="BJP - Party Organization"
+                    alt="BJP Party Organization"
                     style={{
                       maxWidth: '60%',
                       maxHeight: '70%',
@@ -614,7 +605,7 @@ const Biography = () => {
               >
                 <img
                   src="hockylogo.png"
-                  alt="Hockey India - Vice-President"
+                  alt="Hockey India Logo"
                   style={{
                     width: '100%',
                     height: '100%',
@@ -679,7 +670,7 @@ const Biography = () => {
                 }}>
                   <img
                     src="hockylogo.png"
-                    alt="Hockey India - Vice-President"
+                    alt="Hockey India Logo"
                     style={{
                       maxWidth: '60%',
                       maxHeight: '70%',
@@ -737,7 +728,7 @@ const Biography = () => {
               >
                 <img
                   src="ramu bhaiya.png"
-                  alt="Devendra Pratap Singh Tomar"
+                  alt="Devendra Pratap Singh Tomar - Ramu Bhaiya"
                   style={{
                     width: '100%',
                     height: '100%',
@@ -802,7 +793,7 @@ const Biography = () => {
                 }}>
                   <img
                     src="ramu bhaiya.png"
-                    alt="Devendra Pratap Singh Tomar"
+                    alt="Devendra Pratap Singh Tomar - Ramu Bhaiya"
                     style={{
                       maxWidth: '60%',
                       maxHeight: '70%',
@@ -829,7 +820,6 @@ const Biography = () => {
                 <p style={{ margin: 0, fontSize: '0.9rem', lineHeight: '1.7', color: '#57616f' }}>Faced national media scrutiny during the Madhya Pradesh Assembly Elections — detailed below.</p>
               </div>
             </div>
-
           </div>
         </div>
       </section>
@@ -858,9 +848,6 @@ const Biography = () => {
           </div>
         </div>
       </section>
-
-
-
 
       {/* Footer - Simple */}
       <footer style={{
@@ -934,7 +921,6 @@ const Biography = () => {
                   onMouseEnter={(e) => e.target.style.color = '#b8912f'}
                   onMouseLeave={(e) => e.target.style.color = '#8a99b0'}
                 >Journey</a>
-                {/* Work Link - Click to scroll to work section */}
                 <a href="#work" onClick={(e) => {
                   e.preventDefault();
                   const workSection = document.getElementById('work');
@@ -1009,7 +995,6 @@ const Biography = () => {
                 <div style={{ color: '#7d879a', fontSize: '0.85rem', fontWeight: 400, marginTop: '4px' }}>Gwalior, MP</div>
               </div>
             </div>
-
           </div>
 
           {/* Divider */}
@@ -1056,7 +1041,6 @@ const Biography = () => {
               </span>
             </div>
           </div>
-
         </div>
       </footer>
     </div>
